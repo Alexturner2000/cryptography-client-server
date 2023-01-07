@@ -1,5 +1,6 @@
 # cryptography-client-server
-
+program to establish a connection that sends secure application messages from
+a client to a server using the Python
 
 # packages
 ```
