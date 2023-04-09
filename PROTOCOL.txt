@@ -1,0 +1,25 @@
+
+Client
+    sends filename
+
+Server
+    receives filename
+    responds if file is on the Server
+
+
+ _____________________________________________   ________________________________________
+|   [on server]                               | |        [not on server]                 |
+|   Client                                    | |        Client                          |
+|       receives confirmation message         | |            receives error message      |
+|       open for file transit                 | |                                        |
+|                                             | |________________________________________|
+|   Server                                    |                                         
+|       sends file data (size, data)          |
+|                                             |
+|   Client                                    |
+|       receives size and data                |
+|                                             |
+|_____________________________________________|
+
+
+Logic is on the README.txt
